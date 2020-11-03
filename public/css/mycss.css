@@ -1,0 +1,15 @@
+
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+.container1{
+  width: 100%;
+  height:700px;
+  display: flex;   /*yek contaner dorost mikone(container ham hamon banafsh posht safas)*/
+  flex-wrap: wrap;/*agar anasor dakhele ye container az an bozorgtar shodand khodkar be khat paiin miran*/
+  justify-content: center;/*moshakhas mikone onsor dakheli dar koja bashe*/
+  padding: 15px; /*fasele onsor dakheli az container*/
+  background: #0250c5;
+  background: -webkit-linear-gradient(bottom, #0250c5, #d43f8d);
+  position: relative;/*agar dar yek mororgar dg ejrash konim ke bozorgtar bashe andaze pas zamine ham avaz mishe*/
+  z-index: 1;/*avalin onsor safhe hast*/
+  position:relative;
+}
